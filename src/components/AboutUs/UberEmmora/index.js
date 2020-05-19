@@ -30,21 +30,7 @@ const AboutUs = () => {
           <HeadingIcon src={logo} />
         </ResponsiveHeading>
         <BlockText size="16px">{data.description}</BlockText>
-        <CarouselDiv>
-        <Carousel  
-    
-    centerMode
-    showIndicators={false}
-    showStatus={false}
-    infiniteLoop={true}
-    centerSlidePercentage={80}
-
-   >
-     
-
-   </Carousel>
-
-        </CarouselDiv>
+        
       </ContentSection>
 
       <ContentSection
