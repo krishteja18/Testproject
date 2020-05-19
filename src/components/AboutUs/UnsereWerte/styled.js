@@ -78,8 +78,7 @@ justify-content:space-around;
 margin:0 100px;
 
 ${mq[4]}{
- width:375px;
- over-flow:hidden;
+display:none;
 }
 
 `
@@ -94,7 +93,11 @@ ${mq[4]}{
     height: 368px;
     background-color: #79ab9d;
     padding:0 30px;
-    margin-left:10px;
+    margin-left:0 5px;
+    
+
+
+    }
     
   }
 
@@ -175,6 +178,21 @@ ${mq[4]}{
     height: 229px;
     position:relative;
 top:-190px;
+z-index:-2;
 }
+
+`
+
+export const  CarouselDiv=styled.div`
+
+@media(min-width:376px){
+  display:none;
+}
+width:370px;
+background-color:white;
+// z-index:-1;
+position:relative;
+// left:20px;
+
 
 `
